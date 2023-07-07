@@ -61,3 +61,6 @@ def view_extrato(request):
     #Fazer botões de zerar os filtro
     #Fazer para filtrar por períodos
     return render(request, 'view_extrato.html', {'valores': valores, 'contas': contas, 'categorias': categorias})
+
+def exportar_pdf(request):
+    pass
