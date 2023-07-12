@@ -11,3 +11,53 @@ body{
     --differential-color: #E96363;
 
 }
+
+/* Estilos para a barra de navegação */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #201F1F;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para o corpo da página */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para o título da página */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para os links */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
