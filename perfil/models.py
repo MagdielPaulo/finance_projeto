@@ -21,7 +21,7 @@ class Categoria(models.Model):
     
     def calcula_percentual_gasto_por_categoria(self):
         return int((self.total_gasto() * 100) / self.valor_planejamento)
-
+#Criar mais opções
 class Conta(models.Model):
     banco_choices = (
         ('NU', 'Nubank'),
